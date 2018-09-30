@@ -1,13 +1,13 @@
--r test.txt
-pip>=18
-punch.py>=1.5
-wheel>=0.31.1
-watchdog>=0.9
-flake8>=3.5
-Sphinx>=1.8
+
+pip
+punch.py
+wheel
+watchdog
+flake8
+Sphinx
 {% if cookiecutter.use_pypi_deployment_with_travis == 'y' -%}
-cryptography==1.8.1
-PyYAML==3.11{% endif %}
+cryptography
+PyYAML{% endif %}
 
 
 
